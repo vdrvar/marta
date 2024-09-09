@@ -59,17 +59,20 @@ section {
 
 #projects {
     background-color: #ecf0f1;
+    text-align: center; /* Center-align the projects */
 }
 
 .project {
     display: inline-block;
-    width: 30%;
+    width: 30%; /* Each project takes up 30% of the width */
     margin: 20px;
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    vertical-align: top; /* Ensures the cards align correctly */
 }
+
 
 .project img {
     width: 100%;
